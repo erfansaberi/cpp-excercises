@@ -64,7 +64,7 @@ void systemPause();
 
 
 int main(){
-    // Tests
+    // Adding Test Data
     Student student1;
     student1.student_number="2002";
     student1.first_name="Erfan";
@@ -106,7 +106,7 @@ int main(){
     student1.student_courses.push_back(course2);
     students.push_back(student1);
 
-    // End of Tests
+    // End of Adding Test Data
 
     cout<<"[+] Welcome to FUS (Farhangian University System)\n";
     cout<<"[+] Logged in at "<<getCurrentDateTime()<<"\n";
